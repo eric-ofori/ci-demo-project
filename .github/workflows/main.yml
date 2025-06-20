@@ -23,6 +23,6 @@ jobs:
       run: pip install pylint
 
     - name: Run Linter
-    run: |
-      echo "Linting all Python files..."
-      pylint $(git ls-files '*.py') --fail-under=7
+      run: |
+        echo "Linting all Python files..."
+        pylint $(git ls-files '*.py') --fail-under=7
