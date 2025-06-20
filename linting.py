@@ -10,7 +10,6 @@ def get_random_quote():
     "The future depends on what you do today.",
         "Dream big and dare to fail.",
     "Act as if what you do makes a difference. It does."
-    ]
-return random.choice(quotes
-
-print(get_random_quote()
+ ]
+return random.choice(
+print(get_random_quote(
