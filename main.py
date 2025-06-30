@@ -7,5 +7,3 @@ def greet(name):
 
 
 print(greet("GitHub"))
-
-
